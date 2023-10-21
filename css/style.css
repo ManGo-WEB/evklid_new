@@ -241,6 +241,40 @@ body {
   line-height: 200%;
 }
 
+.social__link {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  transition: outline .3s ease-in-out;
+}
+
+.social__link path {
+  transition: fill .3s ease-in-out;
+}
+
+.social__link:hover path {
+  fill: var(--accent-color);
+}
+
+.social__link:focus {
+  outline: 2px solid var(--accent-color);
+}
+
+.social__link:focus path {
+  fill: var(--base-color-light);
+}
+
+.social__link:active {
+  outline: none;
+}
+
+.social__link:active path {
+  fill: var(--accent-color-dark);
+}
+
 
 /* Header */
 .header {
