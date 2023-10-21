@@ -1,0 +1,65 @@
+/* Variables */
+:root {
+  --base-color: #000;
+  --base-light-color: #fff;
+  --base-color-light: #666;
+  --dark-bg-font-color: #cacaca;
+  --accent-color: #ff9900;
+  --accent-color-light: #ffB84d;
+  --accent-color-dark: #e1670e;
+  --form-bg-color: #414141;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat-Regular'), url('../fonts/Montserrat-Regular.woff2') format('woff2'), url('../fonts/Montserrat-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  line-height: 200%;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat-ExtraBold'), url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'), url('../fonts/Montserrat-ExtraBold.woff') format('woff');
+  font-style: normal;
+  font-weight: 800;
+  line-height: 135%;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat-Bold'), url('../fonts/Montserrat-Bold.woff2') format('woff2'), url('../fonts/Montserrat-Bold.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat-SemiBold'), url('../fonts/Montserrat-SemiBold.woff2') format('woff2'), url('../fonts/Montserrat-SemiBold.woff') format('woff');
+  font-style: normal;
+  font-weight: 600;
+  line-height: 135%;
+}
+
+/* Helpers */
+
+
+/* Global */
+
+/* Header */
+
+/* Hero */
+
+/* About */
+
+/* Stages */
+
+/* Questions */
+
+/* Footer */
+
+/* Form */
+
+
