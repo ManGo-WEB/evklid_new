@@ -2,6 +2,46 @@
   .container {
     max-width: 924px;
   }
+
+  .header {
+    padding: 16px 0;
+    margin-bottom: 40px;
+  }
+
+  .logo__img_header {
+    width: 150px;
+  }
+
+  .nav_header {
+    margin-right: 98px;
+  }
+
+  .nav__list_header {
+    gap: 60px;
+  }
+
+  .section_hero {
+    padding: 160px 77px;
+    margin-bottom: 35px;
+  }
+
+  .hero__title {
+    font-size: 60px;
+    margin-bottom: 15px;
+  }
+
+  .hero__subtitle {
+    font-size: 20px;
+    margin-bottom: 58px;
+  }
+
+  .hero__subtitle {
+    max-width: 660px;
+  }
+
+  .about__text {
+    margin-bottom: 57px;
+  }
 }
 
 @media (max-width: 768px) {
