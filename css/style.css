@@ -95,14 +95,37 @@ img {
 }
 
 body {
+  padding: 0;
 	font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 200%;
   color: var(--base-color);
 }
 
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
 
 /* Header */
+.header {
+  padding: 14px 0;
+}
+
+.container__header {
+  align-items: center;
+  gap: 85px;
+}
+
+.header__logo {
+  margin-right: auto;
+}
+
+.nav__list_header {
+  display: flex;
+  gap: 85px;
+}
 
 /* Hero */
 
