@@ -237,7 +237,7 @@ body {
 /* Stages */
 .stages__wrapper {
   display: flex;
-  flex-wrap: ;
+  gap: 32px;
 }
 
 .stages__left,
@@ -245,6 +245,12 @@ body {
   --gap: 32px;
   --offsets: 1;
   width: calc((100% - (var(--gap)  * var(--offsets))) / (var(--offsets) + 1));
+}
+
+.stages__image {
+  height: 100%;
+  background: url('/img/stages-img.jpg') no-repeat center center / cover;
+  border-radius: var(--border-radius);
 }
 
 /* Questions */
@@ -277,6 +283,8 @@ body {
 .footer__right {
   --gap: 32px;
   --offsets: 2;
+  display: flex;
+  flex-direction: column;
   width: calc((100% - (var(--gap)  * var(--offsets))) / (var(--offsets) + 1));
 }
 
