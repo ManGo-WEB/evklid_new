@@ -20,6 +20,10 @@
     gap: 60px;
   }
 
+  .section {
+    margin-bottom: 80px;
+  }
+
   .section_hero {
     padding: 160px 77px;
     margin-bottom: 35px;
@@ -39,8 +43,85 @@
     max-width: 660px;
   }
 
+  .section_about {
+    margin-bottom: 77px;
+  }
+
   .about__text {
-    margin-bottom: 57px;
+    margin-bottom: 60px;
+  }
+
+  .about__wrapper {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .about__left,
+  .about__right {
+    margin: 0;
+    width: 100%;
+  }
+
+  .about__post {
+    min-height: 640px;
+  }
+
+	.about__block {
+		padding-left: 315px;
+		padding-right: 120px;
+	}
+
+  .about__block_box {
+    background: url(/img/about-1.svg) no-repeat 76px center;
+  }
+
+  .about__block_gear {
+    background: url(/img/about-2.svg) no-repeat 76px center;
+  }
+
+  .stages__wrapper {
+    gap: 50px;
+  }
+
+  .stages__left {
+    padding-right: 0;
+  }
+
+  .stages__text:nth-of-type(2) {
+    margin-bottom: 29px;
+  }
+
+  .questions__card {
+    --offsets: 0;
+    padding-bottom: 60px;
+  }
+
+  .block__title {
+    margin-bottom: 8px;
+  }
+
+  .footer-right {
+    display: none;
+  }
+
+  .footer__left,
+  .footer__center,
+  .footer__right {
+    --offsets: 1;
+    --gap: 132px;
+  }
+
+  .footer__left {
+    width: 251px;
+    margin-right: 100px;
+  }
+
+  .footer__center {
+    width: 541px;
+  }
+
+  .form__button {
+    padding: 19px 37px;
   }
 }
 
