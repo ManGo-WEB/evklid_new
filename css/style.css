@@ -442,6 +442,10 @@ body {
   color: var(--base-light-color);
 }
 
+.about-post__extrasmall {
+  display: none;
+}
+
 /* Stages */
 .stages__title {
   margin-bottom: 32px;

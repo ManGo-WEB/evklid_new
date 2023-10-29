@@ -1,3 +1,15 @@
+/* Variables */
+:root {
+  --base-color: #000;
+  --base-light-color: #fff;
+  --base-color-light: #666;
+  --dark-bg-font-color: #cacaca;
+  --accent-color: #ff9900;
+  --accent-color-light: #ffB84d;
+  --accent-color-dark: #e1670e;
+  --form-bg-color: #414141;
+}
+
 @media (max-width: 1024px) {
   .container {
     max-width: 924px;
@@ -117,7 +129,7 @@
   }
 
   .footer__center {
-    width: 541px;
+    max-width: 541px;
   }
 
   .form__button {
@@ -189,6 +201,10 @@
 		background-size: 17%;
 	}
 
+  .about-post__extrasmall {
+    display: none;
+  }
+
 	.stages__wrapper {
 		flex-direction: column-reverse;
 		gap: 40px;
@@ -232,13 +248,278 @@
 	.footer__center {
 		margin-bottom: 16px;
 	}
-	
+
 	.footer__logo {
 		margin-bottom: 7px;
 	}
 }
 
 @media (max-width: 320px) {
+  :root {
+    --border-radius: 16px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+	.container {
+		max-width: 290px;
+	}
+
+  .btn {
+    font-size: 12px;
+    padding: 10px 41px;
+    border-radius: 8px;
+  }
+
+  .btn_outline {
+    border-radius: 8px;
+  }
+
+
+	.container__header {
+		flex-wrap: wrap;
+	}
+
+  .header {
+    margin-bottom: 20px;
+    padding: 7px 0 32px;
+    border-radius: 0 0 16px 16px;
+  }
+
+	.header__logo {
+		order: 1;
+	}
+
+	.search {
+		order: 2;
+	}
+
+	.nav_header {
+		order: 3;
+		margin-right: -14px;
+		padding-top: 5px;
+		overflow: scroll;
+	}
+
+	.nav__list_header {
+		gap: 26px;
+	}
+
+  .nav__item {
+    display: flex;
+  }
+
+  .nav__link {
+    flex: none;
+    line-height: 200%;
+  }
+
+  .section {
+    margin-bottom: 60px;
+  }
+
+  .section__title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 125%;
+  }
+
+  .section_hero {
+    min-height: 308px;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .hero__title {
+    margin-bottom: 6px;
+    font-size: 20px;
+    line-height: 120%;
+  }
+
+  .hero__subtitle {
+    margin-bottom: 34px;
+    font-size: 12px;
+    line-height: 125%;
+  }
+
+  .hero__btn {
+    font-size: 12px;
+    padding: 13px 27px;
+    border-radius: 8px;
+    margin: 0 auto;
+  }
+
+  .about__text  {
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 199%;
+  }
+
+  .about__post {
+    min-height: 200px;
+    margin-bottom: 8px;
+  }
+
+  .about-post__overlay {
+    display: none;
+  }
+
+  .about-post__extrasmall {
+    display: block;
+  }
+
+  .about-post__text {
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 200%;
+    font-weight: 400;
+    color: var(--base-color);
+  }
+
+  .btn-outline_accent {
+    border: 2px solid var(--accent-color);
+    color: var(--accent-color);
+  }
+
+  .about__right {
+    gap: 28px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+
+  .about__block {
+    padding: 67px 0 0;
+  }
+
+  .block__title {
+    margin-bottom: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 120%;
+  }
+
+  .about__block_box,
+  .about__block_gear {
+    background-position: 0px 5px;
+    background-size: 23%;
+  }
+
+  .block__text {
+    font-size: 14px;
+    line-height: 200%;
+  }
+
+  .stages__right,
+  .stages__image {
+    min-height: 160px;
+  }
+
+  .stages__wrapper {
+    gap: 20px;
+  }
+
+  .block__title_stages {
+    margin-bottom: 14px;
+  }
+
+  .stages__buttons {
+    gap: 8px;
+  }
+
+  .stages__btn_acces {
+    padding: 5px 44px;
+  }
+
+  .stages__btn_outline {
+    padding: 5px 30px;
+  }
+
+  .questions__list {
+    gap: 32px;
+  }
+
+  .questions__card {
+    padding: 0;
+  }
+
+  .footer {
+    padding: 30px 0;
+  }
+
+  .footer__left,
+  .footer__center,
+  .footer__right {
+    --offsets: 0;
+  }
+
+  .form {
+    gap: 24px;
+  }
+
+  .form__bottom {
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 0;
+  }
+
+  .form__textarea {
+    min-height: 152px;
+  }
+
+  .form__button {
+    padding: 12px 19px;
+  }
+
+  .checkbox__label {
+    font-size: 16px;
+    padding-left: 14px;
+  }
+
+  .checkbox__label::before {
+    left: -3px;
+  }
+
+  .container__footer {
+    gap: 10px;
+  }
+
+  .footer__left {
+    padding-top: 16px;
+    width: 100%;
+    margin-right: 0;
+    border-top: 1px solid var(--form-bg-color);
+  }
+
+  .footer__logo {
+    width: 131px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+  }
+
+  .social__list {
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .social__item {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social__link {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social__link svg {
+    width: 40px;
+    height: 40px;
+  }
 
 }
-
